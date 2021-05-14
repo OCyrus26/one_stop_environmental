@@ -8,7 +8,11 @@
   .home,
   .services,
   .products,
-  .sign-up {
+  .sign-up 
+  .lawncare
+  .pressurewashing
+  .mulchneeds
+  .plantneeds{
     display: flex;
     height: 90vh;
     align-items: center;
@@ -36,6 +40,42 @@
   
   .sign-up {
     background-image: url('./assets/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .lawncare{
+    background-image: url('./assets/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .pressurewashing{
+    background-image: url('./assets/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .mulchneeds{
+    background-image: url('./assets/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .plantneeds{
+    background-image: url('./assets/img-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
