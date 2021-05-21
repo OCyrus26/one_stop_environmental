@@ -64,19 +64,18 @@ function Navbar() {
               </Link>
             </li>
             
-            <li className='nav-item'
-              onMouseEnter = {onMouseEnter}
-              onMouseLeave = {onMouseLeave}>
-
+            <li className='nav-item'>
               <Link
-                 to='/products'
+                to='/products'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 About Us
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className='nav-item'
+              onMouseEnter = {onMouseEnter}
+              onMouseLeave = {onMouseLeave}>
               <Link
                 to='/services'
                 className='nav-links'
