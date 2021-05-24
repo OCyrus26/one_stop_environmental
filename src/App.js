@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/Pages/Home';
@@ -6,19 +6,43 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/Pages/Services';
 import Products from './components/Pages/Products';
 import SignUp from './components/Pages/SignUp';
-  /* "react-google-maps" : "^9.4.5", goes in package.json*/
-/* import {GoogleMap, withScriptjs, withGoogleMap} from "react-google-maps"; */
-/*
-function Map(){
-  return <GoogleMap defaultZoom={10} defaultCenter={{lat: 40.8859, lng: 74.0435}}
-  /> 
-}
-const WrappedMap = withScriptjs(withGoogleMap(Map));
-*/
+
+import styled from 'styled-components';
+import { Modal } from './components/Modal';
+import { GlobalStyle } from './globalStyles';
+
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`;
+
+const Button = styled.button`
+  min-width: 100px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
+  background: #141414;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+`;
 
 function App() {
+
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(prev => !prev);
+  };
   return (
     <>
+     <Container>
+        <Button onClick={openModal}>REQUEST A FREE QUOTE </Button>
+        <Modal showModal={showModal} setShowModal={setShowModal} />
+        <GlobalStyle />
+      </Container>
       <Router>
         <Navbar />
         <Switch>
@@ -28,18 +52,11 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
         </Switch>
       </Router>
+      
+      
     </>
   );
 }
-/* <div style={{ width: "100vw", height: "100vh" }}>
-      <MapWrapped googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${
-          process.env.REACT_APP_GOOGLE_KEY
-        }`}
 
-        loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div style={{ height: `100%` }} />}
-        mapElement={<div style={{ height: `100%` }} />}
-      />
-    </div> */
 
 export default App;
