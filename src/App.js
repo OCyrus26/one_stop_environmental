@@ -6,10 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/Pages/Services';
 import Products from './components/Pages/Products';
 import SignUp from './components/Pages/SignUp';
-import LawnCare from './components/Pages/LawnCare';
-import PressureWashing from './components/Pages/PressureWashing';
-import MulchNeeds from './components/Pages/MulchNeeds';
-import PlantNeeds from './components/Pages/PlantNeeds';
+import Footer from './components/Footer';
 
 /* import {GoogleMap, withScriptjs, withGoogleMap} from "react-google-maps"; */
 /*
@@ -30,11 +27,8 @@ function App() {
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
           <Route path='/sign-up' component={SignUp} />
-          <Route path='/lawn-care' component={LawnCare} />
-          <Route path='/heated-pressure-washing' component={PressureWashing} />
-          <Route path='/mulch-needs' component={MulchNeeds} />
-          <Route path='/plant-needs' component={PlantNeeds} />
         </Switch>
+        <Footer/>
       </Router>
     </>
   );
