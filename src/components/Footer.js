@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the newsletter to receive our latest lawn deals
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -48,8 +48,6 @@ function Footer() {
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
@@ -68,7 +66,7 @@ function Footer() {
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>One Stop Environmental © 2020</small>
+          <small class='website-rights'>One Stop Environmental © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
