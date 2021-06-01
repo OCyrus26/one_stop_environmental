@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
 import SidePanel from '../SidePanel';
-import ContactForm from '../ContactForm';
+import ContactUs from '../ContactUs';
+
+import './SignUp.css';
 
 export default function SignUp() {
   return <>
-   {/* <h1 className='sign-up'>TEST</h1>; */}
-  {/* <AboutUsCards/> */}
+
   <br/>
   <br/>
   <br/>
@@ -14,18 +15,27 @@ export default function SignUp() {
   <h1>Contact Us</h1> <br/>
   <p>Call us or send us a message</p>
 
-<ContactForm/>
 
-<SidePanel
-    title = 'Contact Info'
-    info = 'Phone: 123-456-7890
-    Email: email@email.com
-    Address: ............'
-  />
+<div class='float-container'>
+ 
+  <div class = 'float-child'>
+    <ContactUs/>
+  </div>
 
-<li><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></li>
+  <div class = 'float-child>'>
+  
+    <SidePanel
+      title = 'Contact Info'
+      info = 'Phone: 123-456-7890
+      Email: email@email.com
+      Address: ............'
+    />
 
-<SidePanel
+  </div>
+
+  <ul><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></ul>
+
+  <SidePanel
     title = 'Hours'
     info = ' Monday:   00:00--00:00
     Tuesday:   00:00--00:00
@@ -36,7 +46,10 @@ export default function SignUp() {
     Sunday:   00:00--00:00'
   />
 
-<li><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></li>
+<ul><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></ul>
+</div>
+
+
 
   </>
 }
