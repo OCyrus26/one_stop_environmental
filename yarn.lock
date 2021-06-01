@@ -3491,6 +3491,11 @@ cliui@^6.0.0:
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
+clsx@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -4463,6 +4468,11 @@ elliptic@^6.5.3:
     inherits "^2.0.4"
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
+
+emailjs-com@^2.6.4:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/emailjs-com/-/emailjs-com-2.6.4.tgz#c3bac8f7ee58d536ab34923e73013ad39f299f46"
+  integrity sha512-4G8rxq+1mbL4rGntMa9tqNJ4N9BhuCl8lFJASDHxZVXeC82ivwL6qw+Zu48cAWHpNK2/F3vScaAZk8zoTAfiAA==
 
 emittery@^0.7.1:
   version "0.7.2"
@@ -9282,6 +9292,11 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
+react-hook-form@^7.6.10:
+  version "7.6.10"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.6.10.tgz#77e98a08839e53a3222b935a07ef94be316f3521"
+  integrity sha512-V39bRK1iK4N9TbQf3jR2oUu7OcgnZAe/WUar1otRR8OHgnGM41XJ7UDQX176/nyCjIcmkcArQdsYc9dPYPpQ9Q==
+
 react-icons@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.2.0.tgz#6dda80c8a8f338ff96a1851424d63083282630d0"
@@ -9414,6 +9429,13 @@ react-spring@^9.0.0-rc.3:
     "@react-spring/three" "9.0.0-rc.3"
     "@react-spring/web" "9.0.0-rc.3"
     "@react-spring/zdog" "9.0.0-rc.3"
+
+react-toastify@^7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-7.0.4.tgz#7d0b743f2b96f65754264ca6eae31911a82378db"
+  integrity sha512-Rol7+Cn39hZp5hQ/k6CbMNE2CKYV9E5OQdC/hBLtIQU2xz7DdAm7xil4NITQTHR6zEbE5RVFbpgSwTD7xRGLeQ==
+  dependencies:
+    clsx "^1.1.1"
 
 react@^17.0.2:
   version "17.0.2"
