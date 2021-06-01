@@ -1,12 +1,12 @@
 export const MenuItems = [
     {
         title: 'Lawn Care',
-        path: '/services',
+        path: '#lawn',
         cName: 'dropdown-link'
     },
     {
         title: 'Heated Pressure Washing',
-        path: '/services',
+        path: '#washing',
         cName: 'dropdown-link'
     },
     {

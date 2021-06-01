@@ -3,9 +3,6 @@
     width: 225px;
     border: 3px solid #1dcc0d;
     padding: 15px;
-
-
-
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -16,7 +13,5 @@
 .panel{
     padding: 1rem;
     background: #fff;
-
-
 }
 

@@ -1,0 +1,39 @@
+html{
+    scroll-behavior: smooth
+}
+
+.lawn{
+    background: #939993;
+    height:700px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.washing{
+    background: #ffffff;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mulch{
+    background: #939993;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plant{
+    background: #ffffff;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
