@@ -8,14 +8,7 @@ import Products from './components/Pages/Products';
 import SignUp from './components/Pages/SignUp';
 import Footer from './components/Footer';
 
-/* import {GoogleMap, withScriptjs, withGoogleMap} from "react-google-maps"; */
-/*
-function Map(){
-  return <GoogleMap defaultZoom={10} defaultCenter={{lat: 40.8859, lng: 74.0435}}
-  /> 
-}
-const WrappedMap = withScriptjs(withGoogleMap(Map));
-*/
+
 
 
 import styled from 'styled-components';
@@ -41,6 +34,7 @@ const Button = styled.button`
 `;
 
 
+
 function App() {
 
   const [showModal, setShowModal] = useState(false);
@@ -50,11 +44,6 @@ function App() {
   };
   return (
     <>
-     <Container>
-        <Button onClick={openModal}>REQUEST A FREE QUOTE </Button>
-        <Modal showModal={showModal} setShowModal={setShowModal} />
-        <GlobalStyle />
-      </Container>
       <Router>
         <Navbar />
         <Switch>
@@ -65,8 +54,6 @@ function App() {
         </Switch>
         <Footer/>
       </Router>
-      
-      
     </>
   );
 }

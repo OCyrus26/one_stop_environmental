@@ -29,25 +29,28 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
+            <Link to='/sign-up'>Meet the team</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <h2>Services</h2>
+            <Link to='/'>Lawn Care</Link>
+            <Link to='/'>Heat Pressure Washing</Link>
+            <Link to='/'>Mulching</Link>
+            <Link to='/'>Plant Needs</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
+            <h2>Contact</h2>
+            <Link to='/'>Call</Link>
+            <Link to='/'>Direct Text</Link>
+            <Link to='/'>Email</Link>
+            <Link to='/'>Business Hours</Link>
+
+
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
@@ -100,14 +103,7 @@ function Footer() {
             >
               <i class='fab fa-twitter' />
             </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+            
           </div>
         </div>
       </section>

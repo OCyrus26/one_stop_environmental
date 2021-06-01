@@ -6,7 +6,7 @@ function AboutUsCards() {
   return (
     <div className='cards'>
       
-      <h1>About Us</h1>
+      <h1>MEET THE TEAM</h1>
       <br/>
       <p>Put a few sentences here</p>
       <div className='cards__container'>
@@ -17,21 +17,12 @@ function AboutUsCards() {
               text='Name⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
               label='Title'
             />
-            <CardItem
-              src='./assets/img-4.jpg'
-              text='Name⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Title'
-            />
-            <CardItem
-              src='./assets/img-8.jpg'
-              text='Name⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Title'
-            />
+          
           </ul>
         </div>
       </div>
     
-      <h1>Trade Memberships</h1>
+      <h1>OUR MISSION</h1>
       <p>Insert external links to organizations</p>
       <div className='cards__container'>
         <div className='cards__wrapper'>
