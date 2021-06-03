@@ -4,10 +4,11 @@ import './Services.css'
 
 function Services() {
 
-  // return <h1 className='services'>SERVICES</h1>;
   return(
   <>
-    <div class='lawn' id='lawn'>
+    <div class='lawn' id='lawn'
+    smooth={true}
+    >
       <h1>Lawn Care</h1> 
       <p>Text........</p>
     </div>
