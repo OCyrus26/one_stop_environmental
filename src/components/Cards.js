@@ -10,14 +10,14 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
+           <CardItem
               src='./assets/img1.jpeg'
               text='For warm-season grasses, only fertilize once.'
               label='Lawn Care'
               path='/services'
             />
             <CardItem
-              src='./assets/img-2.jpg'
+              src='./assets/heated.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Heated Pressure Washing'
               path='/services'
@@ -25,21 +25,21 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='./assets/img-3.jpg'
+              src='./assets/mulching.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mulching'
               path='/services'
             />
             <CardItem
-              src='./assets/img-4.jpg'
+              src='./assets/welcomeplantneeds.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Plant Needs'
               path='/products'
             />
             <CardItem
-              src='./assets/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='./assets/download.jpg'
+              text='Coming Soon...'
+              label='Snow Removal'
               path='/sign-up'
             />
           </ul>

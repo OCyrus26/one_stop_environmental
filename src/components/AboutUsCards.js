@@ -13,7 +13,7 @@ function AboutUsCards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='./assets/img-3.jpg'
+              src='./assets/meetTheteam.jpeg'
               text='Name⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
               label='Title'
             />
