@@ -8,12 +8,13 @@ export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+    emailjs.sendForm('service_ud4xowj', 'template_vhbwtue', e.target, 'user_99Ul5X8DfVk99JDYAMdlS')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+      window.location.reload();
   }
 
   

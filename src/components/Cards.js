@@ -44,8 +44,6 @@ function Cards() {
             />
           </ul>
         </div>
-        <h1> Contact Us </h1>
-        <div> hi my name is </div>
       </div>
     </div>
   );
