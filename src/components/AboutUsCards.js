@@ -8,6 +8,7 @@ function AboutUsCards() {
       
       <h1>MEET THE TEAM</h1>
       <br/>
+     
       <p>Put a few sentences here</p>
       <div className='cards__container'>
         <div className='cards__wrapper'>

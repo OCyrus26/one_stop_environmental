@@ -4,7 +4,7 @@ html{
 
 .lawn{
     background: #939993;
-    height:700px;    
+    padding: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +13,7 @@ html{
 
 .washing{
     background: #ffffff;
-    height:700px;
+    padding:5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +22,7 @@ html{
 
 .mulch{
     background: #939993;
-    height:700px;
+    padding:5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +31,7 @@ html{
 
 .plant{
     background: #ffffff;
-    height:700px;
+    padding:5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
