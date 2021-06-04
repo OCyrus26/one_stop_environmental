@@ -22,9 +22,6 @@ function Services() {
       <li>Service 2</li>
       <li>Service 3</li>
 
-
-
-
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -36,14 +33,6 @@ function Services() {
             </ul>
         </div>
         </div>
-
-
-
-
-
-
-
-
 
     </div>
 

@@ -34,13 +34,13 @@ function Cards() {
               src='./assets/welcomeplantneeds.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Plant Needs'
-              path='/products'
+              path='/services'
             />
             <CardItem
               src='./assets/download.jpg'
               text='Coming Soon...'
               label='Snow Removal'
-              path='/sign-up'
+              path='/services'
             />
           </ul>
         </div>
