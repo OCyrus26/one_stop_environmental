@@ -51,8 +51,9 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            One Stop Environmental
-            <i class='fab fa-typo3' />
+            {/* One Stop Environmental */}
+            <img src = './assets/1StopE_White.png' alt="Logo" width="35%" height="35%"/>
+        
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
