@@ -9,129 +9,59 @@ function Services() {
 
   return(
   <>
-    <div class='lawn' id='lawn'>
-      <h1>Lawn Care </h1> 
-      
+    <div class='lawn' id='lawn'
+    smooth={true}
+    >
+      <h1>Lawn Care <br/><br/> </h1> 
+      <h2>Description 
         <br/>
-     <p>Proper maintenance and care are crucial to extending the life of your installed trees, plants, and  grass. We'll provide weekly/ monthly landscape and lawn maintenance programs to ensure that your property stays beautiful from season to season. Give us a call to learn more. 
-      <br/>
         <br/>
-        <h2> Our Work </h2>
-        <div className='cards__container'>
+      </h2>
+
+      <li>Service 1</li>
+      <li>Service 2</li>
+      <li>Service 3</li>
+
+      <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
            <CardItem
               src='./assets/img1.jpeg'
               text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-
-            <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-              <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
+              label='Lawn Care'
+            />
             </ul>
         </div>
         </div>
-        
-      </p>
-      
-      <p>Lawn Cutting</p>
-      <p>Landscape Detailing</p>
-      <p>Service 3</p>
+
     </div>
 
-    <div class='washing' id='washing'>
-      <h1>Heated Power Washing</h1> 
-      
+    <div class = 'washing' id='washing'>
+      <h1>Heated Pressure Washing <br/><br/> </h1>
+      <h2>Description 
         <br/>
-     <p>Proper maintenance and care are crucial to extending the life of your installed trees, plants, and  grass. We'll provide weekly/ monthly landscape and lawn maintenance programs to ensure that your property stays beautiful from season to season. Give us a call to learn more. 
-      <br/>
         <br/>
-        <h2> Our Work </h2>
-        <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-           <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-            
-            <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-              <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-            </ul>
-        </div>
-        </div>
-      </p>
+      </h2>
     </div>
 
-    <div class='mulch' id='mulch'>
-      <h1>Mulching</h1> 
-      <br/>
-        
-     <p>Proper maintenance and care are crucial to extending the life of your installed trees, plants, and  grass. We'll provide weekly/ monthly landscape and lawn maintenance programs to ensure that your property stays beautiful from season to season. Give us a call to learn more. 
-      <br/>
+    <div class = 'mulch'>
+      <h1>Mulch Needs <br/><br/> </h1>
+      <h2>Description 
         <br/>
-        <h2> Our Work </h2>
-        <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-           <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-            
-            <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-              <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-            </ul>
-        </div>
-        </div>
-      </p>
+        <br/>
+      </h2>
     </div>
 
-    <div class='planting' id='planting'>
-      <h1>Plant Needs</h1> 
-      <br/>
-       
-     <p>Proper maintenance and care are crucial to extending the life of your installed trees, plants, and  grass. We'll provide weekly/ monthly landscape and lawn maintenance programs to ensure that your property stays beautiful from season to season. Give us a call to learn more. 
-      <br/>
+    <div class = 'plant'>
+      <h1>Plant Needs <br/><br/> </h1>
+      <h2>Description 
         <br/>
-        <h2> Our Work </h2>
-        <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-           <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-            
-            <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-              <CardItem
-              src='./assets/img1.jpeg'
-              text='Caption⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Lawn Care' />
-            </ul>
-        </div>
-        </div>
-      </p>
+        <br/>
+      </h2>
+
+      <li>Service 1</li>
+      <li>Service 2</li>
+      <li>Service 3</li>
     </div>
 
 </>
