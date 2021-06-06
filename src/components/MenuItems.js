@@ -6,13 +6,13 @@ import CardItem from './CardItem';
 export const MenuItems = [
     {
         title: 'Lawn Care',
-        path: '#lawn',
+        path: '/services',
         cName: 'dropdown-link'
         
     },
     {
         title: 'Heated Pressure Washing',
-        path: '#washing',
+        path: '/services',
         cName: 'dropdown-link'
     },
     {
@@ -27,19 +27,3 @@ export const MenuItems = [
     }
    
 ]
-function MenuItem(){
-return(
-
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='./assets/meetTheteam.jpeg'
-              text='Name⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Title'
-            />
-          
-          </ul>
-        </div>
-      </div>
-)}

@@ -6,22 +6,11 @@ function AboutUsCards() {
   return (
     <div className='cards'>
       
-      <h1>MEET THE TEAM</h1>
+      <h1>About Us </h1>
       <br/>
      
       <p>Put a few sentences here</p>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='./assets/meetTheteam.jpeg'
-              text='Name⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
-              label='Title'
-            />
-          
-          </ul>
-        </div>
-      </div>
+    
     
       <h1>OUR MISSION</h1>
       <p>Insert external links to organizations</p>
@@ -29,7 +18,7 @@ function AboutUsCards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='./assets/img-3.jpg'
+              src='./assets/mt1.png'
               text='⠀⠀⠀⠀⠀⠀⠀Name⠀⠀⠀⠀⠀⠀⠀'
               label='We have to put something in this blue box too'
             />
@@ -43,6 +32,21 @@ function AboutUsCards() {
               text='⠀⠀⠀⠀⠀⠀⠀Name⠀⠀⠀⠀⠀⠀⠀'
               label='We have to put something in this blue box too'
             />
+          </ul>
+        </div>
+      </div>
+
+      <h1>Meet the  Team</h1>
+      <p>Obulus Designs</p>
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
+            <CardItem
+              src='./assets/mt1.png'
+              text='Name⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀'
+              label='We have to put something in this blue box too'
+            />
+           
           </ul>
         </div>
       </div>
