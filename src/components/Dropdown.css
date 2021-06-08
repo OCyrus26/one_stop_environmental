@@ -8,11 +8,11 @@
 
 .dropdown-menu li{
     background: #242222;
-    cursor: pointer;
 }
 
 .dropdown-menu li:hover{
     background: #1dcc0d;
+    cursor: default;
 }
 
 

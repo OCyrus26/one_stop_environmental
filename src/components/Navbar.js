@@ -52,7 +52,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             {/* One Stop Environmental */}
-            <img src = './assets/1StopE_White.png' alt="Logo" width="35%" height="35%"/>
+            <img src = './assets/1StopE_White.png' alt="One Stop Environmental" width="35%" height="35%" className = "nav-logo"/>
         
           </Link>
           <div className='menu-icon' onClick={handleClick}>
