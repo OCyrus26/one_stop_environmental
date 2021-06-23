@@ -14,7 +14,9 @@ function Services() {
         <h1>Lawn Care </h1> 
         
           <br/>
-       <p>Proper maintenance and care are crucial to extending the life of your installed trees, plants, and  grass. We'll provide weekly/ monthly landscape and lawn maintenance programs to ensure that your property stays beautiful from season to season. Give us a call to learn more. 
+          <p style={{color:"#ffff"}}>
+         Proper maintenance and care are crucial to extending the life of your installed trees, plants, and  grass. We'll provide weekly/ monthly landscape and lawn maintenance programs to ensure that your property stays beautiful from season to season. Give us a call to learn more. 
+       </p>
         <br/>
           <br/>
        
@@ -40,7 +42,7 @@ function Services() {
           </div>
           </div>
   
-        </p>
+        
         
         <p>Lawn Cutting</p>
         <p>Landscape Detailing</p>
@@ -114,7 +116,8 @@ function Services() {
         <h1>Plant Needs</h1> 
         <br/>
          
-       <p>Proper maintenance and care are crucial to extending the life of your installed trees, plants, and  grass. We'll provide weekly/ monthly landscape and lawn maintenance programs to ensure that your property stays beautiful from season to season. Give us a call to learn more. 
+       <p>Proper maintenance and care are crucial to extending the life of your installed trees, plants, and  grass. We'll provide weekly/ monthly landscape and lawn maintenance programs to ensure that your property stays beautiful from season to season. Give us a call to learn more.
+          
         <br/>
           <br/>
 

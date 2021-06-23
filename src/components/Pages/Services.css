@@ -4,6 +4,7 @@ html{
 
 .lawn{
     background: #939993;
+    background-image: url("https://jooinn.com/images/green-leaf-plant-7.jpg");
     padding: 5rem;
     display: flex;
     flex-direction: column;
